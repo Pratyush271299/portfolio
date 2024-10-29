@@ -54,11 +54,11 @@ const Portfolio = () => {
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
           {portfolios.map(({ id, src, demo, github }) => (
-            <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
+            <div key={id} className="shadow-md shadow-gray-600 rounded-lg duration-200 hover:scale-105">
               <img
                 src={src}
                 alt=""
-                className="rounded-md duration-200 hover:scale-105"
+                className="rounded-md "
               />
               <div className="flex items-center justify-center">
                 <a href={demo} target="_blank" rel="noopener noreferrer">
