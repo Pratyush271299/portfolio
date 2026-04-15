@@ -13,7 +13,15 @@ const About = () => {
           </p>
         </div>
         <p className="text-xl mt-20">
-          Hello! I'm Pratyush Ranjan, a passionate frontend developer with a keen eye for design and a deep love for creating interactive user experiences. I thrive on turning complex problems into simple, beautiful, and intuitive designs. My journey in tech began with a fascination for web technologies, and since then, I've honed my skills in HTML, CSS, JavaScript, and React.js.
+          Hello! I'm Pratyush Ranjan, a full stack developer who enjoys building scalable web applications and clean user experiences. I work with React.js on the frontend and ASP.NET (C#) on the backend, connecting the dots between UI and server-side logic to create complete, functional products.
+
+I started my journey with a strong interest in frontend development, focusing on HTML, CSS, JavaScript, and React. Over time, I expanded into backend development, working with REST APIs, Entity Framework Core, SQL Server, and authentication systems like JWT. Now, I don’t just build interfaces, I build the systems behind them.
+
+I focus on writing clean, maintainable code and structuring applications in a way that’s easy to scale and debug. I enjoy solving real problems, understanding how things work under the hood, and continuously improving my development approach.
+
+When I’m not coding, I’m usually solving puzzles, exploring new tech, or sharpening my fundamentals to get better every day.
+
+Let’s build something meaningful.
         </p>
 
         <br />
