@@ -4,12 +4,10 @@ import html from "../assets/html.png";
 import css from "../assets/css.png";
 import javascript from "../assets/javascript.png";
 import reactImage from "../assets/react.png";
-import nextjs from "../assets/nextjs.png";
-import graphql from "../assets/graphql.png";
 import github from "../assets/github.png";
 import tailwind from "../assets/tailwind.png";
-import redux from '../assets/redux.svg';
-import react_native from '../assets/react_native.svg';
+import csharp from "../assets/csharp.png";
+import dotnet from "../assets/dotnetcore.jpg";
 
 const Experience = () => {
   const techs = [
@@ -39,15 +37,15 @@ const Experience = () => {
     },
     {
       id: 5,
-      src: redux,
-      title: "Redux",
-      style: "shadow-purple-600",
+      src: csharp,
+      title: "C#",
+      style: "shadow-green-500",
     },
     {
       id: 6,
-      src: react_native,
-      title: "React Native",
-      style: "shadow-blue-400",
+      src: dotnet,
+      title: ".NET",
+      style: "shadow-purple-500",
     },
     {
       id: 7,
@@ -76,13 +74,13 @@ const Experience = () => {
           <p className="py-6">These are the technologies I've worked with</p>
         </div>
 
-        <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8  px-12 sm:px-0">
+        <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0">
           {techs.map(({ id, src, title, style }) => (
             <div
               key={id}
               className={`shadow-md hover:scale-105 duration-500 py-2 rounded-lg ${style}`}
             >
-              <img src={src} alt="" className="w-20 mx-auto" />
+              <img src={src} alt={title} className="w-20 mx-auto" />
               <p className="mt-4">{title}</p>
             </div>
           ))}
